@@ -1,0 +1,43 @@
+name: barang_dapur
+description: Aplikasi untuk membedakan barang barang dapur.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4
+  http: ^0.13.3
+  path_provider: ^2.0.15
+  connectivity_plus: ^4.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "assets/icon/adaptive_launcher_background.png"
+  adaptive_icon_foreground: "assets/icon/adaptive_launcher_foreground.png"
+  launcher_icon: "assets/icon/icon.png"
+
+flutter:
+  fonts:
+    - family: Qwigley
+      fonts:
+        - asset: assets/fonts/Qwigley-Regular.ttf
+  assets:
+    - assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
